@@ -45,20 +45,6 @@ const categorySlides = document.querySelectorAll(
   ".categorySwiper .swiper-slide",
 );
 
-// categorySlides.forEach((slide) => {
-//   slide.addEventListener("click", function () {
-//     if (!this.dataset.active) {
-//       this.style.backgroundColor = "#DB4444"; // رنگ سفارشی
-//       this.style.color = "#ffffff"; // متن سفید
-//       this.style.transition = "background-color 0.75s"; // تغییر رنگ خیلی آهسته
-//       this.dataset.active = "true";
-//     } else {
-//       this.style.backgroundColor = "";
-//       this.style.color = "";
-//       this.dataset.active = "";
-//     }
-//   });
-// });
 
 // Mobile nav toggle
 const mobileMenuBtn = document.getElementById("mobileMenuBtn");
