@@ -1,0 +1,54 @@
+
+
+:root {
+    --primary-color: #90A3BF;
+    --secondary-color: #DB4444;
+    --tertiary-color: #FFAD33;
+    --quaternary-color: #00FF66;
+    --hover-button: #E07575;
+
+}
+
+.swiper-pagination-bullet {
+    border: 1px solid white;
+}
+
+.swiper-button-prev {
+    position: absolute;
+    left: 80%;
+    top : -70px;
+}
+.swiper-button-next{
+    position: absolute;
+    top:-70px;
+    right: 9%;
+}
+
+
+@media screen and (max-width:1023px) {
+    
+        .swiper-button-prev {
+            left: 75%;
+            top: -50px;
+        }
+    
+        .swiper-button-next {
+            top: -50px;
+    
+        }
+}
+
+@media screen and (max-width:767px) {
+   
+         .swiper-button-prev {
+            user-select: none;
+             left: 0%;
+             top: -40px;
+         }
+    
+         .swiper-button-next {
+             top: -40px;
+    
+         }
+
+}
